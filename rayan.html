@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cute Cat</title>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				text-align: center;
+				background-color: #f2f2f2;
+				padding: 20px;
+				background-color: blueviolet;
+			}
+
+			h1 {
+				color: white;
+			}
+
+			img {
+				max-width: 400px;
+				height: auto;
+				border-radius: 10px;
+				box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+				margin-top: 20px;
+			}
+
+			div {
+				padding-top: 2rem;
+			}
+			a {
+				color: rgb(255, 136, 136);
+				animation: colorAnimation 2s infinite ease-in-out;
+				position: relative;
+				transition: color 0.5s, transform 0.5s;
+				transform: rotate(0deg);
+			}
+
+			@keyframes colorAnimation {
+				0% {
+					color: rgb(255, 136, 136);
+					transform: rotate(10deg);
+				}
+				50% {
+					color: rgb(136, 255, 136);
+					transform: rotate(-10deg);
+				}
+				100% {
+					color: rgb(255, 136, 136);
+					transform: rotate(0deg);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<h1>I meaw meaw you!</h1>
+		<img src="./cat.jpg" alt="Cute Cat" />
+		<div>
+			<a href="https://www.youtube.com/embed/dQw4w9WgXcQ"
+				>please ckick ths link</a
+			>
+		</div>
+	</body>
+</html>
